@@ -35,7 +35,7 @@ The school board has informed about the academic dishonesty in Math and Reading 
         
 ## Summary
 
-After chainging the math and reading scores with NaNs for Thomas High School 9th grade, we noticed that:
+After changing the math and reading scores with NaNs for Thomas High School 9th grade, we noticed that:
 1. The school summary metrics have changed the most. We calculated the school summary with total number of students including 9th grade and exclusing 9th grade students. 
     When we excluded the 9th grade students records, the math, reading and overall percentages have poped significantly compared to just replacing the scores with NaNs.
 2. There is a slight difference in the district summary metric values.
