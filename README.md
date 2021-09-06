@@ -15,10 +15,10 @@ The school board has informed about the academic dishonesty in Math and Reading 
 2. How is the school summary affected?
     - We have calculated the Thomas High School summary two ways,
     1. First, we have replaced the Thomas High School, 9th grade Math and Reading scores with NaNs. Because we are replacing the math and reading score values with NaN, the total number of students in the school include 9th-12th grades, 1635 students and their %Passing Math, %Passing Reading and %Overall Passing are, 66.9%, 69,7% and 65.1% respectively.
-    -- add replacing 9th grade pic
+![](https://github.com/Nikhila999/School_District_Analysis/blob/main/resources/THS_replacing_9thgrade.png)
     
     2. In the second scenario, we have ignored Thomas High School 9th grade records (we are considering the total number of students from 10th-12th). To calculate the %Passing values, we are removing the 461 students from 9th grade and considering only 1174 students from 10th-12th grade. %Passing Math, %Passing Reading and %Overall Passing are, 93.2%, 97.0% and 90.6% respectively
-    -- add removing 9th grade pic
+![](https://github.com/Nikhila999/School_District_Analysis/blob/main/resources/THS_removing_9thgrade.png)
 
 3. How does replacing the ninth grader's math and reading scores affect Thomas High School's performance relative to the other schools?
     - Replacing the 9th grade values with NaNs has not had notable difference, however removing the 9th grade records have improved the percentage passing significantly, from the pictures above we can see that the passing percentages have jumped from less than 70% to greater than 90%.
